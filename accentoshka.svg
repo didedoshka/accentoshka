@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 256" font-family="Helvetica, Arial, sans-serif">
+<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}.shift{font-size:12px;fill:#666;}.altgr{font-size:12px;fill:#c0392b;}.label{font-size:11px;fill:#999;}</style>
+<rect class="key" x="10" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="38" y="50" text-anchor="middle">`</text>
+<text class="shift" x="38" y="28" text-anchor="middle">~</text>
+<rect class="key" x="70" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="98" y="50" text-anchor="middle">1</text>
+<text class="shift" x="98" y="28" text-anchor="middle">!</text>
+<rect class="key" x="130" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="158" y="50" text-anchor="middle">2</text>
+<text class="shift" x="158" y="28" text-anchor="middle">@</text>
+<rect class="key" x="190" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="218" y="50" text-anchor="middle">3</text>
+<text class="shift" x="218" y="28" text-anchor="middle">#</text>
+<rect class="key" x="250" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="278" y="50" text-anchor="middle">4</text>
+<text class="shift" x="278" y="28" text-anchor="middle">$</text>
+<rect class="key" x="310" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="338" y="50" text-anchor="middle">5</text>
+<text class="shift" x="338" y="28" text-anchor="middle">%</text>
+<rect class="key" x="370" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="398" y="50" text-anchor="middle">6</text>
+<text class="shift" x="398" y="28" text-anchor="middle">^</text>
+<rect class="key" x="430" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="458" y="50" text-anchor="middle">7</text>
+<text class="shift" x="458" y="28" text-anchor="middle">&amp;</text>
+<rect class="key" x="490" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="518" y="50" text-anchor="middle">8</text>
+<text class="shift" x="518" y="28" text-anchor="middle">*</text>
+<rect class="key" x="550" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="578" y="50" text-anchor="middle">9</text>
+<text class="shift" x="578" y="28" text-anchor="middle">(</text>
+<rect class="key" x="610" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="638" y="50" text-anchor="middle">0</text>
+<text class="shift" x="638" y="28" text-anchor="middle">)</text>
+<rect class="key" x="670" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="698" y="50" text-anchor="middle">-</text>
+<text class="shift" x="698" y="28" text-anchor="middle">_</text>
+<rect class="key" x="730" y="10" width="56" height="56" rx="6"/>
+<text class="main" x="758" y="50" text-anchor="middle">=</text>
+<text class="shift" x="758" y="28" text-anchor="middle">+</text>
+<rect class="key" x="790" y="10" width="116" height="56" rx="6"/>
+<text class="label" x="848" y="42" text-anchor="middle">Bksp</text>
+<rect class="key" x="10" y="70" width="86" height="56" rx="6"/>
+<text class="label" x="53" y="102" text-anchor="middle">Tab</text>
+<rect class="key" x="100" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="128" y="110" text-anchor="middle">Q</text>
+<rect class="key" x="160" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="188" y="110" text-anchor="middle">W</text>
+<text class="altgr" x="210" y="118" text-anchor="end">«</text>
+<rect class="key" x="220" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="248" y="110" text-anchor="middle">E</text>
+<text class="altgr" x="270" y="118" text-anchor="end">é</text>
+<rect class="key" x="280" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="308" y="110" text-anchor="middle">R</text>
+<rect class="key" x="340" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="368" y="110" text-anchor="middle">T</text>
+<rect class="key" x="400" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="428" y="110" text-anchor="middle">Y</text>
+<text class="altgr" x="450" y="118" text-anchor="end">»</text>
+<rect class="key" x="460" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="488" y="110" text-anchor="middle">U</text>
+<text class="altgr" x="510" y="118" text-anchor="end">ù</text>
+<rect class="key" x="520" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="548" y="110" text-anchor="middle">I</text>
+<text class="altgr" x="570" y="118" text-anchor="end">î</text>
+<rect class="key" x="580" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="608" y="110" text-anchor="middle">O</text>
+<text class="altgr" x="630" y="118" text-anchor="end">ô</text>
+<rect class="key" x="640" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="668" y="110" text-anchor="middle">P</text>
+<rect class="key" x="700" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="728" y="110" text-anchor="middle">[</text>
+<text class="shift" x="728" y="88" text-anchor="middle">{</text>
+<rect class="key" x="760" y="70" width="56" height="56" rx="6"/>
+<text class="main" x="788" y="110" text-anchor="middle">]</text>
+<text class="shift" x="788" y="88" text-anchor="middle">}</text>
+<rect class="key" x="820" y="70" width="86" height="56" rx="6"/>
+<text class="main" x="863" y="110" text-anchor="middle">\</text>
+<text class="shift" x="863" y="88" text-anchor="middle">|</text>
+<rect class="key" x="10" y="130" width="101" height="56" rx="6"/>
+<text class="label" x="60.5" y="162" text-anchor="middle">Caps</text>
+<rect class="key" x="115" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="143" y="170" text-anchor="middle">A</text>
+<text class="altgr" x="165" y="178" text-anchor="end">à</text>
+<rect class="key" x="175" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="203" y="170" text-anchor="middle">S</text>
+<rect class="key" x="235" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="263" y="170" text-anchor="middle">D</text>
+<text class="altgr" x="285" y="178" text-anchor="end">œ</text>
+<rect class="key" x="295" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="323" y="170" text-anchor="middle">F</text>
+<text class="altgr" x="345" y="178" text-anchor="end">ë</text>
+<rect class="key" x="355" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="383" y="170" text-anchor="middle">G</text>
+<rect class="key" x="415" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="443" y="170" text-anchor="middle">H</text>
+<text class="altgr" x="465" y="178" text-anchor="end">è</text>
+<rect class="key" x="475" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="503" y="170" text-anchor="middle">J</text>
+<text class="altgr" x="525" y="178" text-anchor="end">ï</text>
+<rect class="key" x="535" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="563" y="170" text-anchor="middle">K</text>
+<text class="altgr" x="585" y="178" text-anchor="end">û</text>
+<rect class="key" x="595" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="623" y="170" text-anchor="middle">L</text>
+<text class="altgr" x="645" y="178" text-anchor="end">â</text>
+<rect class="key" x="655" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="683" y="170" text-anchor="middle">;</text>
+<text class="shift" x="683" y="148" text-anchor="middle">:</text>
+<rect class="key" x="715" y="130" width="56" height="56" rx="6"/>
+<text class="main" x="743" y="170" text-anchor="middle">'</text>
+<text class="shift" x="743" y="148" text-anchor="middle">"</text>
+<rect class="key" x="775" y="130" width="131" height="56" rx="6"/>
+<text class="label" x="840.5" y="162" text-anchor="middle">Enter</text>
+<rect class="key" x="10" y="190" width="131" height="56" rx="6"/>
+<text class="label" x="75.5" y="222" text-anchor="middle">Shift</text>
+<rect class="key" x="145" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="173" y="230" text-anchor="middle">Z</text>
+<rect class="key" x="205" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="233" y="230" text-anchor="middle">X</text>
+<rect class="key" x="265" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="293" y="230" text-anchor="middle">C</text>
+<text class="altgr" x="315" y="238" text-anchor="end">ç</text>
+<rect class="key" x="325" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="353" y="230" text-anchor="middle">V</text>
+<text class="altgr" x="375" y="238" text-anchor="end">ü</text>
+<rect class="key" x="385" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="413" y="230" text-anchor="middle">B</text>
+<rect class="key" x="445" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="473" y="230" text-anchor="middle">N</text>
+<text class="altgr" x="495" y="238" text-anchor="end">ê</text>
+<rect class="key" x="505" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="533" y="230" text-anchor="middle">M</text>
+<rect class="key" x="565" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="593" y="230" text-anchor="middle">,</text>
+<text class="shift" x="593" y="208" text-anchor="middle">&lt;</text>
+<rect class="key" x="625" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="653" y="230" text-anchor="middle">.</text>
+<text class="shift" x="653" y="208" text-anchor="middle">&gt;</text>
+<rect class="key" x="685" y="190" width="56" height="56" rx="6"/>
+<text class="main" x="713" y="230" text-anchor="middle">/</text>
+<text class="shift" x="713" y="208" text-anchor="middle">?</text>
+<rect class="key" x="745" y="190" width="161" height="56" rx="6"/>
+<text class="label" x="825.5" y="222" text-anchor="middle">Shift</text>
+</svg>

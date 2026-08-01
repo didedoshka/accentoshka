@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.didedoshka.keyboardlayout.accentoshka</string>
+	<key>CFBundleName</key>
+	<string>Accentoshka</string>
+	<key>CFBundleVersion</key>
+	<string></string>
+	<key>KLInfo_Accentoshka</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>com.didedoshka.keyboardlayout.accentoshka.accentoshka</string>
+		<key>TISIntendedLanguage</key>
+		<string>fr</string>
+	</dict>
+</dict>
+</plist>
