@@ -21,7 +21,7 @@ for m in re.finditer(r'<keyMap index="(\d)">\n(.*?)\n        </keyMap>', text, r
 base, shift, opt = maps[bi], maps[si], maps[oi]
 whitelist = set(wl)
 
-LABELS = {"Bksp": "⌫", "Tab": "⇥", "Caps": "⇪", "Enter": "⏎", "Shift": "⇧"}
+LABELS = {"Bksp": "delete", "Tab": "tab", "Caps": "caps lock", "Enter": "return", "Shift": "shift"}
 ROWS = [
     (10, [(10, 56, 50), (70, 56, 18), (130, 56, 19), (190, 56, 20), (250, 56, 21), (310, 56, 23),
           (370, 56, 22), (430, 56, 26), (490, 56, 28), (550, 56, 25), (610, 56, 29), (670, 56, 27),
@@ -39,19 +39,28 @@ ROWS = [
 esc = lambda s: html.escape(s, quote=False)
 L = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 256" font-family="Helvetica, Arial, sans-serif">',
      '<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}'
-     '.shift{font-size:12px;fill:#666;}.label{font-size:17px;fill:#999;}</style>']
+     '.shift{font-size:12px;fill:#666;}.label{font-size:11px;fill:#111;}</style>']
 for y, keys in ROWS:
     for x, w, code in keys:
         cx = x + w / 2
         L.append(f'<rect class="key" x="{x}" y="{y}" width="{w}" height="{56}" rx="6"/>')
         if isinstance(code, str):
-            L.append(f'<text class="label" x="{cx:g}" y="{y+35}" text-anchor="middle">{LABELS[code]}</text>')
+            # word labels sit at the bottom, toward the outer edge, like on a physical Mac keyboard
+            if x == 10:
+                L.append(f'<text class="label" x="{x+8}" y="{y+48}" text-anchor="start">{LABELS[code]}</text>')
+            else:
+                L.append(f'<text class="label" x="{x+w-8}" y="{y+48}" text-anchor="end">{LABELS[code]}</text>')
             continue
         b = base.get(code, "")
         main = b.upper() if b.isalpha() else b
         o = opt.get(code, "")
-        if o and o in whitelist:
-            # accent keys: accent is the big centered legend, QWERTY letter small in the corner
+        if b.isalpha():
+            # letter keys: QWERTY letter small in the corner; on accent keys the accent is the big legend
+            L.append(f'<text class="shift" x="{x+10}" y="{y+18}" text-anchor="middle">{esc(main)}</text>')
+            if o and o in whitelist:
+                L.append(f'<text class="main" x="{cx:g}" y="{y+40}" text-anchor="middle">{esc(o)}</text>')
+            continue
+        if o and o in whitelist:  # guillemets on w/y are handled above; other hosts would land here
             L.append(f'<text class="main" x="{cx:g}" y="{y+40}" text-anchor="middle">{esc(o)}</text>')
             L.append(f'<text class="shift" x="{x+10}" y="{y+18}" text-anchor="middle">{esc(main)}</text>')
             continue
