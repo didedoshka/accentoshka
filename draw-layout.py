@@ -39,7 +39,7 @@ ROWS = [
 esc = lambda s: html.escape(s, quote=False)
 L = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 256" font-family="Helvetica, Arial, sans-serif">',
      '<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}'
-     '.shift{font-size:12px;fill:#666;}.altgr{font-size:20px;fill:#c0392b;}.label{font-size:17px;fill:#999;}</style>']
+     '.shift{font-size:12px;fill:#666;}.label{font-size:17px;fill:#999;}</style>']
 for y, keys in ROWS:
     for x, w, code in keys:
         cx = x + w / 2
@@ -51,9 +51,9 @@ for y, keys in ROWS:
         main = b.upper() if b.isalpha() else b
         o = opt.get(code, "")
         if o and o in whitelist:
-            # accent keys: the accented letter is the big legend, the QWERTY letter sits small above
-            L.append(f'<text class="altgr" x="{cx:g}" y="{y+40}" text-anchor="middle">{esc(o)}</text>')
-            L.append(f'<text class="shift" x="{cx:g}" y="{y+18}" text-anchor="middle">{esc(main)}</text>')
+            # accent keys: accent is the big centered legend, QWERTY letter small in the corner
+            L.append(f'<text class="main" x="{cx:g}" y="{y+40}" text-anchor="middle">{esc(o)}</text>')
+            L.append(f'<text class="shift" x="{x+10}" y="{y+18}" text-anchor="middle">{esc(main)}</text>')
             continue
         L.append(f'<text class="main" x="{cx:g}" y="{y+40}" text-anchor="middle">{esc(main)}</text>')
         s = shift.get(code, "")

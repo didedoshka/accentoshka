@@ -5,7 +5,7 @@ character — hence the name, in the family of [APToshka](https://github.com/did
 
 ![Accentoshka layout](accentoshka.svg)
 
-Red characters are typed with Option + the grey QWERTY letter above them; grey symbols with Shift. Capitals: Option+Shift on the same key
+Accented characters are typed with Option + the small QWERTY letter in the corner of their key; grey characters with Shift. Capitals: Option+Shift on the same key
 (É Ç À È …).
 
 ## Why
