@@ -5,7 +5,7 @@ character — hence the name, in the family of [APToshka](https://github.com/did
 
 ![Accentoshka layout](accentoshka.svg)
 
-Accented characters are typed with Option + the small QWERTY letter in the corner of their key; grey characters with Shift. Capitals: Option+Shift on the same key
+The small corner letter is the plain QWERTY key; the big legend is what Option + that key types. Keys without a big legend have no Option character. Capitals: Option+Shift on the same key
 (É Ç À È …).
 
 ## Why
