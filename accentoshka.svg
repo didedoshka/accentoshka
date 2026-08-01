@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 256" font-family="Helvetica, Arial, sans-serif">
-<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}.shift{font-size:12px;fill:#666;}.altgr{font-size:12px;fill:#c0392b;}.label{font-size:11px;fill:#999;}</style>
+<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}.shift{font-size:12px;fill:#666;}.altgr{font-size:12px;fill:#c0392b;}.label{font-size:17px;fill:#999;}</style>
 <rect class="key" x="10" y="10" width="56" height="56" rx="6"/>
 <text class="main" x="38" y="50" text-anchor="middle">`</text>
 <text class="shift" x="38" y="28" text-anchor="middle">~</text>
@@ -40,9 +40,9 @@
 <text class="main" x="758" y="50" text-anchor="middle">=</text>
 <text class="shift" x="758" y="28" text-anchor="middle">+</text>
 <rect class="key" x="790" y="10" width="116" height="56" rx="6"/>
-<text class="label" x="848" y="42" text-anchor="middle">Bksp</text>
+<text class="label" x="848" y="45" text-anchor="middle">⌫</text>
 <rect class="key" x="10" y="70" width="86" height="56" rx="6"/>
-<text class="label" x="53" y="102" text-anchor="middle">Tab</text>
+<text class="label" x="53" y="105" text-anchor="middle">⇥</text>
 <rect class="key" x="100" y="70" width="56" height="56" rx="6"/>
 <text class="main" x="128" y="110" text-anchor="middle">Q</text>
 <rect class="key" x="160" y="70" width="56" height="56" rx="6"/>
@@ -79,7 +79,7 @@
 <text class="main" x="863" y="110" text-anchor="middle">\</text>
 <text class="shift" x="863" y="88" text-anchor="middle">|</text>
 <rect class="key" x="10" y="130" width="101" height="56" rx="6"/>
-<text class="label" x="60.5" y="162" text-anchor="middle">Caps</text>
+<text class="label" x="60.5" y="165" text-anchor="middle">⇪</text>
 <rect class="key" x="115" y="130" width="56" height="56" rx="6"/>
 <text class="main" x="143" y="170" text-anchor="middle">A</text>
 <text class="altgr" x="165" y="178" text-anchor="end">à</text>
@@ -112,9 +112,9 @@
 <text class="main" x="743" y="170" text-anchor="middle">'</text>
 <text class="shift" x="743" y="148" text-anchor="middle">"</text>
 <rect class="key" x="775" y="130" width="131" height="56" rx="6"/>
-<text class="label" x="840.5" y="162" text-anchor="middle">Enter</text>
+<text class="label" x="840.5" y="165" text-anchor="middle">⏎</text>
 <rect class="key" x="10" y="190" width="131" height="56" rx="6"/>
-<text class="label" x="75.5" y="222" text-anchor="middle">Shift</text>
+<text class="label" x="75.5" y="225" text-anchor="middle">⇧</text>
 <rect class="key" x="145" y="190" width="56" height="56" rx="6"/>
 <text class="main" x="173" y="230" text-anchor="middle">Z</text>
 <rect class="key" x="205" y="190" width="56" height="56" rx="6"/>
@@ -142,5 +142,5 @@
 <text class="main" x="713" y="230" text-anchor="middle">/</text>
 <text class="shift" x="713" y="208" text-anchor="middle">?</text>
 <rect class="key" x="745" y="190" width="161" height="56" rx="6"/>
-<text class="label" x="825.5" y="222" text-anchor="middle">Shift</text>
+<text class="label" x="825.5" y="225" text-anchor="middle">⇧</text>
 </svg>

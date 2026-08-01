@@ -21,6 +21,7 @@ for m in re.finditer(r'<keyMap index="(\d)">\n(.*?)\n        </keyMap>', text, r
 base, shift, opt = maps[bi], maps[si], maps[oi]
 whitelist = set(wl)
 
+LABELS = {"Bksp": "⌫", "Tab": "⇥", "Caps": "⇪", "Enter": "⏎", "Shift": "⇧"}
 ROWS = [
     (10, [(10, 56, 50), (70, 56, 18), (130, 56, 19), (190, 56, 20), (250, 56, 21), (310, 56, 23),
           (370, 56, 22), (430, 56, 26), (490, 56, 28), (550, 56, 25), (610, 56, 29), (670, 56, 27),
@@ -38,13 +39,13 @@ ROWS = [
 esc = lambda s: html.escape(s, quote=False)
 L = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 912 256" font-family="Helvetica, Arial, sans-serif">',
      '<style>.key{fill:#fdfdfd;stroke:#444;stroke-width:1.2;rx:6;}.main{font-size:20px;fill:#111;}'
-     '.shift{font-size:12px;fill:#666;}.altgr{font-size:12px;fill:#c0392b;}.label{font-size:11px;fill:#999;}</style>']
+     '.shift{font-size:12px;fill:#666;}.altgr{font-size:12px;fill:#c0392b;}.label{font-size:17px;fill:#999;}</style>']
 for y, keys in ROWS:
     for x, w, code in keys:
         cx = x + w / 2
         L.append(f'<rect class="key" x="{x}" y="{y}" width="{w}" height="{56}" rx="6"/>')
         if isinstance(code, str):
-            L.append(f'<text class="label" x="{cx:g}" y="{y+32}" text-anchor="middle">{code}</text>')
+            L.append(f'<text class="label" x="{cx:g}" y="{y+35}" text-anchor="middle">{LABELS[code]}</text>')
             continue
         b = base.get(code, "")
         main = b.upper() if b.isalpha() else b
